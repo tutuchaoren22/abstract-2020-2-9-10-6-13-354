@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Application {
     public static void main(String[] args) {
-        Person person=new Person("Ming",1300);
+        Person person=new Person("Ming",300);
         Drive drive=new Drive();
         Bus bus=new Bus();
         Train train=new Train();

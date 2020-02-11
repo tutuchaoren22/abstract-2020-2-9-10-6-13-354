@@ -16,7 +16,7 @@ public class Person {
     public void chooseVehicle(ArrayList<Vehicle> Vehicles){
         for (Vehicle vehicle:Vehicles){
             if(getMoney() >= vehicle.getCost()){
-                System.out.println("Select to travel from Wuhan to Beijing by "+vehicle.getVehicle()+".");
+                System.out.println(getName()+" choose to travel from Wuhan to Beijing by "+vehicle.getVehicle()+".");
             }
         }
 
