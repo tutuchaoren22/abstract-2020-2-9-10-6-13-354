@@ -1,17 +1,15 @@
 package module;
 
-import java.sql.SQLOutput;
-
-public class Train implements Vehicle {
+public class Plane implements Vehicle{
     @Override
     public double getCost() {
-        return 400;
+        return 1000;
     }
 
     @Override
     public void isChooseIt(double money) {
         if(money >= getCost()){
-            System.out.println("选择火车");
+            System.out.println("选择飞机");
         }
     }
 }
