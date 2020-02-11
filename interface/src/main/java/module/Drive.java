@@ -7,9 +7,7 @@ public class Drive implements Vehicle{
     }
 
     @Override
-    public void isChooseIt(double money) {
-        if(money >= getCost()){
-            System.out.println("选择自驾");
-        }
+    public String getVehicle() {
+        return "drive-self";
     }
 }

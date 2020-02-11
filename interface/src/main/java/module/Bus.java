@@ -7,9 +7,7 @@ public class Bus implements Vehicle {
     }
 
     @Override
-    public void isChooseIt(double money) {
-        if(money >= getCost()){
-            System.out.println("选择大巴车");
-        }
+    public String getVehicle() {
+        return "bus";
     }
 }

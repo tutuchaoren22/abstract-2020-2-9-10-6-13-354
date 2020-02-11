@@ -9,9 +9,7 @@ public class Train implements Vehicle {
     }
 
     @Override
-    public void isChooseIt(double money) {
-        if(money >= getCost()){
-            System.out.println("选择火车");
-        }
+    public String getVehicle() {
+        return "train";
     }
 }

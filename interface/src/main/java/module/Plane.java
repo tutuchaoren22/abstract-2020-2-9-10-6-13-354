@@ -7,9 +7,7 @@ public class Plane implements Vehicle{
     }
 
     @Override
-    public void isChooseIt(double money) {
-        if(money >= getCost()){
-            System.out.println("选择飞机");
-        }
+    public String getVehicle() {
+        return "plane";
     }
 }
