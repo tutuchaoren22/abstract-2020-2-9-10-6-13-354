@@ -1,6 +1,6 @@
 package module;
 
-public class Plane implements Vehicle{
+public class Plane implements Vehicle {
     @Override
     public double getCost() {
         return 1000;

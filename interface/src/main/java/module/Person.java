@@ -13,10 +13,11 @@ public class Person {
         this.name = name;
         this.money = money;
     }
-    public void chooseVehicle(ArrayList<Vehicle> Vehicles){
-        for (Vehicle vehicle:Vehicles){
-            if(getMoney() >= vehicle.getCost()){
-                System.out.println(getName()+" choose to travel from Wuhan to Beijing by "+vehicle.getVehicle()+".");
+
+    public void chooseVehicle(ArrayList<Vehicle> Vehicles) {
+        for (Vehicle vehicle : Vehicles) {
+            if (getMoney() >= vehicle.getCost()) {
+                System.out.println(getName() + " choose to travel from Wuhan to Beijing by " + vehicle.getVehicle() + ".");
             }
         }
 

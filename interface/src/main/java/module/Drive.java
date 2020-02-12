@@ -1,6 +1,6 @@
 package module;
 
-public class Drive implements Vehicle{
+public class Drive implements Vehicle {
     @Override
     public double getCost() {
         return 500;
